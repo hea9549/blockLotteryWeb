@@ -1,5 +1,5 @@
 import React from "react";
-import "./CenterView.scss";
+import "./MainHeader.scss";
 /* interface IProps {
     text: string;
     done: boolean;
@@ -8,7 +8,7 @@ import "./CenterView.scss";
 }
 */
 
-export default class CenterView extends React.Component {
+export default class MainHeader extends React.Component {
     public render(): React.ReactNode {
         return (
             <div id="HeaderBox">
